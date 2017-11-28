@@ -18,7 +18,7 @@ public class SalvandoPrimeiroObjeto {
 		cliente.setNome("Pedro Bial");
 		cliente.setIdade(50);
 		cliente.setProfissao("Jornalista");
-		cliente.setSexo("G");
+		cliente.setSexo("M");
 		
 		em.getTransaction().begin();
 		em.persist(cliente);
